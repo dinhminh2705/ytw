@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YTW</title>
+<meta name="description" content="YTW is a personal, single-user tool for preparing and publishing videos to the operator's own YouTube channels.">
+<style>
+  :root { --bg: #fbfaf7; --fg: #1d1c1a; --muted: #6a6761; --line: #dedbd3; --link: #1f5fa8; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #151514; --fg: #ecebe7; --muted: #a09d96; --line: #33322f; --link: #8ab8ee; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 42rem; margin: 0 auto; padding: 3.5rem 1rem 4rem; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .5rem; }
+  h2 { font-size: 1.15rem; margin: 2.2rem 0 .4rem; }
+  p, ul { margin: .6rem 0; }
+  ul { padding-left: 1.2rem; }
+  .lead { color: var(--muted); font-size: 1.1rem; }
+  a { color: var(--link); }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>YTW</h1>
+  <p class="lead">A personal, single-user tool for preparing and publishing videos to the operator's own YouTube channels.</p>
+
+  <h2>What it is</h2>
+  <p>YTW runs on one computer that belongs to its developer. It helps that one person research topics, write scripts, assemble videos and, after a human has reviewed and approved each video, upload it to a YouTube channel that the same person owns.</p>
+  <p>YTW is not a public service. Nobody else can sign up for it or sign in to it, and it is not offered for sale.</p>
+
+  <h2>How it uses a Google Account</h2>
+  <p>When the developer connects one of their own YouTube channels, YTW asks Google for permission to:</p>
+  <ul>
+    <li>upload videos, thumbnails and captions to that channel;</li>
+    <li>read the channel's basic details, such as its name and its subscriber, view and video counts;</li>
+    <li>read YouTube Analytics reports for the videos on that channel.</li>
+  </ul>
+  <p>YTW uses this access only for those purposes. The details are in the <a href="privacy.html">privacy policy</a>.</p>
+
+  <h2>YouTube API Services</h2>
+  <p>YTW uses YouTube API Services. Use of YTW with a YouTube channel is subject to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+  <footer>
+    <a href="privacy.html">Privacy policy</a> · <a href="https://github.com/dinhminh2705/ytw/issues">Contact</a>
+  </footer>
+</main>
+</body>
+</html>
